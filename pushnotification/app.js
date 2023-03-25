@@ -1,4 +1,4 @@
-<script>
+
 		Push.create("Hola mundo",{
 			body: "Este es el cuerpo de la notificacion",
 			icon: "img/logo.png",
@@ -8,4 +8,3 @@
 				this.close();
 			}
 		});
-	</script>
