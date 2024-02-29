@@ -8,7 +8,7 @@ function getCurrentMonth() {
     return currentDate.getMonth() + 1;
 }
 
-fetch('js/json/prayer-times.json')
+fetch('https://dagprogs.github.io/apidb/ruznama/json/prayer-times.json')
     .then(response => response.json())
     .then(data => {
         prayerTimes = data;
