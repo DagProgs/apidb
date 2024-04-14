@@ -1,6 +1,3 @@
-const player = new Plyr('#player', {
-    invertTime: false,
-});
 $(function() {
     // Включение трека по клику
     $('.change-youtube').click(function(){
@@ -16,18 +13,22 @@ $(function() {
                 }
             ]
         };    
-        // если нужно запускать видео сразу по клику, раскоментируйте строчки ниже
-            window.setTimeout(function() {
+        
+        // Автоматическое воспроизведение при клике
+        /*
+        window.setTimeout(function() {
             player.play();
-            }, 1000);       
+        }, 1000);
+        */     
     });
-    // Переключение аидео на следующее по окончанию    
+
+    // Переключение видео на следующее по окончанию    
     player.on('ended', event => {
         let nextyoutube = $('.change-youtube.active').next(".change-youtube");
         let urlnextyoutube = nextyoutube.attr('data-youtube');
         if (!urlnextyoutube) {
             player.stop();     
-            } else {
+        } else {
             $('.change-youtube').removeClass('active');
             nextyoutube.addClass('active');
             player.source = {
@@ -39,12 +40,13 @@ $(function() {
                     }
                 ]
             };        
-            // если нужно запускать следующее видео, раскоментируйте строчки ниже
+            
+            // Автоматическое воспроизведение следующего видео
             /*
-                window.setTimeout(function() {    
+            window.setTimeout(function() {    
                 player.play(); 
-                }, 1000);
+            }, 1000);
             */
         }
     });    
-});    
+});
