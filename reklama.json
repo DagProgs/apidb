@@ -1,6 +1,10 @@
 [
   {
+      "type": "text",
+      "content": "1 Рамадан - 1 Марта 2025 г."
+  },
+  {
       "type": "image",
-      "src": "https://dagprogs.github.io/apidb/0.jpeg"
+      "src": "https://dagprogs.github.io/apidb/0.jpg"
   }
 ]
