@@ -1,4 +1,8 @@
 [
+	{
+        "type": "image",
+        "src": "https://dagprogs.github.io/apidb/masdjid.png"
+    },
     {
         "type": "text",
         "content": "..."
