@@ -1,4 +1,8 @@
 [
+	{
+        "type": "video",
+        "src": "https://dagprogs.github.io/apidb/1.mp4"
+    },
     {
         "type": "text",
         "content": "..."
