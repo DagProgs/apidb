@@ -1,7 +1,7 @@
 [
 	{
         "type": "video",
-        "content": "https://dagprogs.github.io/apidb/1.mp4"
+        "src": "https://dagprogs.github.io/apidb/1.mp4"
     },
     {
         "type": "text",
