@@ -1,12 +1,11 @@
-/*
+
 [
     {
         "type": "text",
         "content": "..."
-    },
-    {
+    }
+    /*{
         "type": "image",
         "src": "https://dagprogs.github.io/apidb/1.jpeg"
-    }
+    }*/
 ]
-*/
