@@ -4,3 +4,12 @@
   "text": "Это пример текста, который будет отображаться на странице.",
   "expiryDate": "2025-03-20"
 }
+
+
+
+
+
+{
+        "type": "image",
+        "src": "https://dagprogs.github.io/apidb/1.jpeg"
+    }
